@@ -342,7 +342,12 @@ section{
   align-items: center;
   align-content: center;
   margin: 0 auto;
-
+}
+@media (max-width:412px){
+  section{
+  height: 65vh;
+  }
+  
 }
 /* ============================================Contact========================================== */
 .container_3{
@@ -359,8 +364,8 @@ section{
   display: flex;
   background: #fff;
   width: 100%;
-  height: 50px;
-  padding: 20px 20px; 
+  height: 20px;
+  padding: 15px 20px; 
   align-items: center;  
 }
 .contact_bar img{
@@ -611,9 +616,9 @@ table a {
   margin: 0 auto ;
   align-items: center;
   align-content:center;
-  background-image: url(/images/Artboard\ 2.png);
+  background-image: url(/images/1-2-3-4.png);
   background-repeat: no-repeat;
-  object-fit: cover;
+  background-size: cover;
   background-position: center;
 
 }
