@@ -335,14 +335,14 @@ a {
   }
 }
 /* ================================================================================== */
-section{
+/* section{
   width: 100%;
   height: 100vh;
   font-size: .085;
   align-items: center;
   align-content: center;
   margin: 0 auto;
-}
+} */
 @media (max-width:430px){
   section{
   height: 65vh;
@@ -594,7 +594,7 @@ table a {
 @media (max-width:412px) {
   table{
     margin: 10px 0;
-    width: 500px;
+    width: 100%;
   }
   .head_table{
     font-size: 12px;
@@ -609,7 +609,7 @@ table a {
 @media (max-width:375px) {
   table{
     margin: 10px 0;
-    width: 500px;
+    width: 100%;
   }
   .head_table{
     font-size: 12px;
@@ -639,6 +639,7 @@ table a {
 }
 .containor_About{
   /* max-width: 600px; */
+  padding: 0 20px;
   height: auto;
   border: #222222 solid 1px;
   margin: 20px 40px;
@@ -658,18 +659,18 @@ table a {
 }
 @media (max-width:915px){
   .About_text h1{
-    font-size: 50px;
+    font-size: 27px;
   }
   .About_titel{
-    font-size: 20px;
+    font-size: 15px;
   }
 }
 @media (max-width:830px){
   .About_text h1{
-    font-size: 50px;
+    font-size: 26px;
   }
   .About_titel{
-    font-size: 20px;
+    font-size: 14px;
   }
 }
 @media (max-width:769px){
@@ -677,10 +678,10 @@ table a {
     width: 80%;
   }
   .About_text h1{
-    font-size: 50px;
+    font-size: 26px;
   }
   .About_titel{
-    font-size: 20px;
+    font-size: 14px;
   }
 }
 @media (max-width:540px){
@@ -689,7 +690,7 @@ table a {
     margin: 0 10px 10px 10px;
   }
   .About_text h1{
-    font-size: 35px;
+    font-size: 25px;
   }
   .About_titel{
     font-size: 14px;
@@ -701,10 +702,10 @@ table a {
     margin: 0 10px 10px 10px;
   }
   .About_text h1{
-    font-size: 35px;
+    font-size: 25px;
   }
   .About_titel{
-    font-size: 14px;
+    font-size: 8px;
   }
 }
 @media (max-width:413px){
@@ -713,7 +714,7 @@ table a {
     margin: 0 10px 10px 10px;
   }
   .About_text h1{
-    font-size: 40px;
+    font-size: 23px;
   }
   .About_titel{
     font-size: 13px;
@@ -725,10 +726,10 @@ table a {
     margin: 0 10px 10px 10px;
   }
   .About_text h1{
-    font-size: 25px;
+    font-size: 21px;
   }
   .About_titel{
-    font-size: 12px;
+    font-size: 10px;
   }
 }
 @media (max-width:395px){
@@ -737,10 +738,10 @@ table a {
     margin: 0 10px 10px 10px;
   }
   .About_text h1{
-    font-size: 25px;
+    font-size: 20px;
   }
   .About_titel{
-    font-size: 12px;
+    font-size: 10px;
   }
 }
 @media (max-width:375px){
@@ -761,10 +762,10 @@ table a {
     margin: 0 10px 10px 10px;
   }
   .About_text h1{
-    font-size: 25px;
+    font-size: 18px;
   }
   .About_titel{
-    font-size: 11px;
+    font-size: 7px;
   }
 }
 /* ===============================================tnterior/de================================================= */
@@ -938,7 +939,7 @@ table a {
   width: 100%;
   height: 100%;
 }
-@media (max-width:1280px){
+/* @media (max-width:1280px){
   .containor_product2{
   width: 100%;
   height: 100%;
@@ -1016,7 +1017,7 @@ table a {
   width: 100%;
   height: 100%;
    }
-}
+} */
 /* =====================================================media============================================================== */
 .containor_product3{
   width: 100%;
