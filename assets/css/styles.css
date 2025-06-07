@@ -625,9 +625,10 @@ table a {
 
 .About{
   width: 100%;
-  height: 800px;
+  /* height: 800px; */
   top: 0;
   color: #000;
+  margin: 20px 0;
   align-items: center;
   align-content:center;
   /* background-image: */
@@ -637,10 +638,13 @@ table a {
 
 }
 .containor_About{
-  max-width: 600px;
+  /* max-width: 600px; */
   height: auto;
   border: #222222 solid 1px;
   margin: 20px 40px;
+}
+.About_con_text{
+  width: 100%;
 }
 .About_text{
   width: 100%;
@@ -748,10 +752,10 @@ table a {
     margin: 0 10px 10px 10px;
   }
   .About_text h1{
-    font-size: 25px;
+    font-size: 18px;
   }
   .About_titel{
-    font-size: 12px;
+    font-size: 7px;
   }
 }
 @media (max-width:365px){
