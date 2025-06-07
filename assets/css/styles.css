@@ -939,7 +939,7 @@ table a {
   width: 100%;
   height: 100%;
 }
-/* @media (max-width:1280px){
+@media (max-width:1280px){
   .containor_product2{
   width: 100%;
   height: 100%;
@@ -1017,7 +1017,7 @@ table a {
   width: 100%;
   height: 100%;
    }
-} */
+}
 /* =====================================================media============================================================== */
 .containor_product3{
   width: 100%;
